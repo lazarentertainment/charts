@@ -534,7 +534,7 @@ datasources:
     materialize:
       ## The name of the Materialize cluster to connect to
       ##
-      cluster: 
+      cluster:
 
     snowFlake:
       ## The Snowflake account ID to use when connecting to the database
@@ -722,11 +722,11 @@ api:
   ##     value: "bar"
   ##
   extraEnvVars: []
-  
+
   ## Name of a Config Map containing extra environment variables to pass on to the pod
   ##
   extraEnvVarsFromConfigMap:
-  
+
   ## Name of a Secret containing extra environment variables to pass on to the pod
   ##
   extraEnvVarsFromSecret:
@@ -766,7 +766,7 @@ worker:
   #   limits:
   #     cpu: "2"
   #     memory: "6Gi"
-        
+
   ## Configure options for liveness probes
   ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#configure-probes
   ##
@@ -812,11 +812,11 @@ worker:
   ##     value: "bar"
   ##
   extraEnvVars: []
-  
+
   ## Name of a Config Map containing extra environment variables to pass on to the pod
   ##
   extraEnvVarsFromConfigMap:
-  
+
   ## Name of a Secret containing extra environment variables to pass on to the pod
   ##
   extraEnvVarsFromSecret:
