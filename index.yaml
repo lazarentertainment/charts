@@ -25,4 +25,28 @@ entries:
     urls:
     - https://github.com/lazarentertainment/charts/releases/download/cube-1.0.0/cube-1.0.0.tgz
     version: 1.0.0
-generated: "2025-01-13T19:01:22.534359523Z"
+  cubestore:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/lazarentertainment/charts
+    apiVersion: v2
+    appVersion: 1.1.14
+    created: "2025-01-13T20:04:24.541151086Z"
+    description: A Helm chart for Cubestore
+    digest: 0260aea4e8f617ad298d76e3e654bb8d92b3aeb9d393cbaad2809c87d18870f0
+    keywords:
+    - cube
+    - cubejs
+    - cubestore
+    maintainers:
+    - email: lee@stageten.tv
+      name: Lee Horrocks
+    name: cubestore
+    sources:
+    - https://github.com/cube-js/cube.js
+    type: application
+    urls:
+    - https://github.com/lazarentertainment/charts/releases/download/cubestore-1.0.1/cubestore-1.0.1.tgz
+    version: 1.0.1
+generated: "2025-01-13T20:04:24.54116378Z"
