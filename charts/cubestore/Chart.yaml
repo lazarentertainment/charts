@@ -2,7 +2,7 @@ apiVersion: v2
 name: cubestore
 description: A Helm chart for Cubestore
 type: application
-version: 1.0.0
+version: 1.0.1
 appVersion: "1.1.14"
 keywords:
   - cube
@@ -13,7 +13,6 @@ maintainers:
     name: Lee Horrocks
 sources:
   - https://github.com/cube-js/cube.js
-  - https://github.com/gadsme/charts
 annotations:
   "artifacthub.io/links": |
     - name: Chart Source
